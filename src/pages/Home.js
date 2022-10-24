@@ -2,40 +2,55 @@ import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
+import IconButton from '@material-ui/core/IconButton';
 import "../styles/Home.css";
 
 function Home() {
+
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Pedro</h2>
+        <h2> Hi, I'm Ariel</h2>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <p>A mechanical engineering student at MIT interested in aerospace, climate/energy studies, and design.</p>
+          <IconButton aria-label="delete"
+          onClick={event =>  window.location='https://www.linkedin.com/in/ariel-mobius-6b66a11b8/'}>
+            <LinkedInIcon />
+          </IconButton>
+          <IconButton aria-label="delete"
+          onClick={event =>  window.location='mailto:arielmobius@gmail.com'}>
+            <EmailIcon />
+          </IconButton>
+          <IconButton aria-label="delete"
+          onClick={event =>  window.location='https://github.com/akmobius'}>
+            <GithubIcon />
+          </IconButton>
         </div>
       </div>
       <div className="skills">
         <h1> Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2> Front-End</h2>
+            <h2> CAD and Simulation</h2>
             <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+              SolidWorks, Fusion360, Ansys FLUENT
             </span>
           </li>
           <li className="item">
-            <h2>Back-End</h2>
+            <h2>Manufacturing</h2>
             <span>
-              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
+              Injection molding, CNC mill, lathe, mill, 3D printing, composite layups, foam cutting, laser cutting, thermoforming, hand tools
             </span>
           </li>
           <li className="item">
-            <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
+            <h2>Project Management</h2>
+            <span>Scrum, Agile methodology, peer review/merge requests in git</span>
+          </li>
+          <li className="item">
+            <h2> Programming Languages</h2>
+            <span>
+              Matlab, Python, Javascript, ReactJS, HTML, CSS, NPM
+            </span>
           </li>
         </ol>
       </div>
