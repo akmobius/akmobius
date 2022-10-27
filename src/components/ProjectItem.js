@@ -11,7 +11,7 @@ const style = {
   top: '105%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
+  width: 500,
   position:'absolute',
   bgcolor: 'background.paper',
   border: '2px solid #000',
@@ -32,14 +32,16 @@ function getModalStyle() {
 }
 
 
-function ProjectItem({ image, name, id, skills}) {
+function ProjectItem({ image, name, id, skills, extraImage}) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   return (
     <div>
-      <Image style={{width: `250px`, borderRadius: `10px`}} src={image} onClick={handleOpen}/>
-      <Button style={{fontSize: `15px`, color:`#3e497a`, position:`center`}} onClick={handleOpen}>{name}</Button>
+      <div>
+        <Image style={{width: `250px`, borderRadius: `10px`}} src={image} onClick={handleOpen}/>
+        <Button style={{fontSize: `16px`, color:`#3e497a`, marginLeft:'10px'}} onClick={handleOpen}>{name}</Button>
+      </div>
       <Modal
         open={open}
         onClose={handleClose}
@@ -48,13 +50,14 @@ function ProjectItem({ image, name, id, skills}) {
         style={getModalStyle()}
       >
         <Box sx={style}>
-        <Image  src={image} />
+        <Image  style={{height:'10px', borderRadius: `10px`}} src={image} />
           <Typography id="modal-modal-title" variant="h6" component="h2">
             {name}
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             {skills}
           </Typography>
+          <img style={{width:'70%', height:'70%',marginLeft:'60px', marginTop:'20px'}} src={extraImage} />
         </Box>
       </Modal>
     </div>
