@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio",
   "version": "0.1.0",
-  "homepage": "https://akmobius.github.io/build",
+  "homepage": "https://akmobius.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
