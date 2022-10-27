@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecd8a198.css",
-    "main.js": "/static/js/main.4a45c1bf.js",
-    "static/js/496.2aa0ec7e.chunk.js": "/static/js/496.2aa0ec7e.chunk.js",
-    "static/media/landinggear.jpg": "/static/media/landinggear.9e4209379990fbb03ebc.jpg",
-    "static/media/glab1.PNG": "/static/media/glab1.4b1308b96fb453c29642.PNG",
-    "static/media/2022plane.png": "/static/media/2022plane.7993b63691df46492f7b.png",
-    "static/media/lobstercopter.png": "/static/media/lobstercopter.81bd19ea34179b3862e5.png",
-    "static/media/oswald.png": "/static/media/oswald.09f948284b27381f5702.png",
-    "index.html": "/index.html",
-    "main.ecd8a198.css.map": "/static/css/main.ecd8a198.css.map",
-    "main.4a45c1bf.js.map": "/static/js/main.4a45c1bf.js.map",
-    "496.2aa0ec7e.chunk.js.map": "/static/js/496.2aa0ec7e.chunk.js.map"
+    "main.css": "/build/static/css/main.ecd8a198.css",
+    "main.js": "/build/static/js/main.669115cd.js",
+    "static/js/496.2aa0ec7e.chunk.js": "/build/static/js/496.2aa0ec7e.chunk.js",
+    "static/media/landinggear.jpg": "/build/static/media/landinggear.9e4209379990fbb03ebc.jpg",
+    "static/media/glab1.PNG": "/build/static/media/glab1.4b1308b96fb453c29642.PNG",
+    "static/media/2022plane.png": "/build/static/media/2022plane.7993b63691df46492f7b.png",
+    "static/media/lobstercopter.png": "/build/static/media/lobstercopter.81bd19ea34179b3862e5.png",
+    "static/media/oswald.png": "/build/static/media/oswald.09f948284b27381f5702.png",
+    "index.html": "/build/index.html",
+    "main.ecd8a198.css.map": "/build/static/css/main.ecd8a198.css.map",
+    "main.669115cd.js.map": "/build/static/js/main.669115cd.js.map",
+    "496.2aa0ec7e.chunk.js.map": "/build/static/js/496.2aa0ec7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecd8a198.css",
-    "static/js/main.4a45c1bf.js"
+    "static/js/main.669115cd.js"
   ]
 }
