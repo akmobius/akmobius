@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+# we exclude /build from git ignore so it's synced
+#/build
 
 # misc
 .DS_Store
