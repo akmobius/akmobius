@@ -44,10 +44,10 @@ function Home() {
           </li>
           <li className="item">
             <h2>Project Management</h2>
-            <span>Scrum, Agile methodology, peer review/merge requests in git</span>
+            <span>Scrum, agile methodology, peer review/merge requests in git</span>
           </li>
           <li className="item">
-            <h2> Programming Languages</h2>
+            <h2> Programming</h2>
             <span>
               Matlab, Python, Javascript, ReactJS, HTML, CSS, NPM
             </span>

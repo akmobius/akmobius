@@ -15,6 +15,7 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
+      <img src={project.extraImage} />
     </div>
   );
 }
